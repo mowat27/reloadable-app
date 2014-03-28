@@ -1,4 +1,4 @@
-(defproject reloadable-app/lein-template "0.1.0-SNAPSHOT"
+(defproject reloadable-app/lein-template "0.1.0"
   :description "Leiningen template for a new component based app implementing the reloaded workflow."
   :url "https://github.com/mowat27/reloadable-app"
   :license {:name "Eclipse Public License"
