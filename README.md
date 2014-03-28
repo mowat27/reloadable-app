@@ -1,6 +1,6 @@
 # reloadable-app
 
-A Leiningen template for FIXME.
+A Leiningen template for a component based app that uses the reloaded workflow in development.
 
 ## Usage
 
