@@ -1,8 +1,8 @@
 # reloadable-app
 
-A Leiningen template for a component based app that uses the reloaded workflow in development.
+A Leiningen template for a component based app using Stuart Sierra's [component](https://github.com/stuartsierra/component) library and reloaded workflow. 
 
-See Stuart Sierra's [component]("https://github.com/stuartsierra/component") library for background.  Stuart's talk from Clojure West 2014 is also highly recommended.
+For an introduction to component based systems, please see the documentation for [component](https://github.com/stuartsierra/component) and Stuart's talk from Clojure West 2014.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=13cmHf_kt-Q
 " target="_blank"><img src="http://img.youtube.com/vi/13cmHf_kt-Q/0.jpg" 
@@ -18,7 +18,7 @@ lein new reloadable-app my_project
 
 This will create a new Leiningen project with 2 files:
 
-**src/my_project/system.clj **
+**src/my_project/system.clj**
 
 ```clojure
 (ns my-project.system
@@ -76,7 +76,7 @@ Basic REPL functions so you can use Stuart Sierra's reloaded workflow.  These ar
 
 ## Emacs Users
 
-This is copied from Malcolm Sparks' [jig]("https://github.com/juxt/jig") library documentation
+*Note that this is copied directly from Malcolm Sparks' [jig](https://github.com/juxt/jig) library documentation*
 
 You should find yourself typing `(reset)` rather a lot, and soon
 even that becomes burdensome. Here's some Emacs code you can paste into
