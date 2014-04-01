@@ -71,7 +71,23 @@ An empty system with no components and a placeholder for the system map to get y
   (refresh :after 'user/go))
 ```
 
-Basic REPL functions so you can use Stuart Sierra's reloaded workflow.  These are taken directly from the documentation for the component library
+This file contains REPL functions so you can use Stuart Sierra's reloaded workflow as described in the documentation for the component library.
+
+user.clj is ready loaded for you in the development profile.
+
+```clojure
+(defproject my_project "0.1.0-SNAPSHOT"
+  :description "FIXME: write description"
+  :url "http://example.com/FIXME"
+  :license {:name "Eclipse Public License"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :dependencies [[org.clojure/clojure "1.5.1"]
+                 [com.stuartsierra/component "0.2.1"]]
+  :profiles {:dev {:dependencies [[org.clojure/tools.namespace "0.2.4"]]
+                   :source-paths ["dev"]}})
+```
+
+
 
 
 ## Emacs Users
