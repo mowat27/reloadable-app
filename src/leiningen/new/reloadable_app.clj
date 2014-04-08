@@ -10,7 +10,7 @@
   (let [data {:name                    name
               :sanitized               (name-to-path name)
               :snake-cased-name        (clojure.string/replace name #"_" "-")
-              :clojure-version         "1.5.1"
+              :clojure-version         "1.6.0"
               :tools-namespace-version "0.2.4"
               :component-lib-version   "0.2.1"}]
     (main/info "Generating fresh 'lein new' reloadable-app project.")
