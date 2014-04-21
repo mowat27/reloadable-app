@@ -1,6 +1,4 @@
 (ns user
-  ;; Prevent warning when replaced by tools.namespace
-  (:refer-clojure :exclude [refresh])
   (:require 
    [com.stuartsierra.component :as component]
    [clojure.tools.namespace.repl :refer (refresh refresh-all)]
