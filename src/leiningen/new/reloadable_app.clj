@@ -11,8 +11,8 @@
               :sanitized               (name-to-path name)
               :snake-cased-name        (clojure.string/replace name #"_" "-")
               :clojure-version         "1.6.0"
-              :tools-namespace-version "0.2.4"
-              :component-lib-version   "0.2.1"}]
+              :tools-namespace-version "0.2.10"
+              :component-lib-version   "0.2.3"}]
     (main/info "Generating fresh 'lein new' reloadable-app project.")
     (->files data
              ["project.clj"                  (render "project.clj" data)]
